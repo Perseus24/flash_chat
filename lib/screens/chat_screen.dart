@@ -55,7 +55,7 @@ class _ChatScreenState extends State<ChatScreen> {
       'Accept': '*/*',
       'User-Agent': 'Thunder Client (https://www.thunderclient.com)',
       'Content-Type': 'application/json',
-      'Authorization': 'key=AAAADi5DiQk:APA91bHJb-tFluFevlPEZh09TmzyXwry2_WSAzhrB-jGkj2osq5xo_q0xUPVXEb62PnZAcBl6sACVtZLuwFwTyEfGTCYIkIVOlYhuYb170VtstJ7-LnCERbyFH85_6N196VTw2kxa1sQ'
+      'Authorization': ''
     };
     var url = Uri.parse('https://fcm.googleapis.com/fcm/send');
 
